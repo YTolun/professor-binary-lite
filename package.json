@@ -1,0 +1,15 @@
+{
+  "name": "professor-binary-lite",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/tools/terminal.js",
+    "rag:embeddings": "node src/tools/embeddings-table.js",
+    "rag:nearest": "node src/tools/embeddings-nearest.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^17.2.1"
+  }
+}

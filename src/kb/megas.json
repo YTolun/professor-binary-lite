@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mega-victreebel",
+    "name": "Mega Victreebel",
+    "typing": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll (Mega)"],
+    "baseStats": { "hp": 80, "atk": 125, "def": 80, "spa": 125, "spd": 80, "spe": 80 },
+    "signatureMoves": ["Acid Vines (custom)", "Leaf Storm"],
+    "flavor": "Mega Victreebel develops barbed, prehensile vines that secrete corrosive acids, letting it grapple opponents and reposition in dense jungle.",
+    "competitiveNotes": "Mixed attacker with priority to punish Fairies and bulky Waters. Pairs well with sun setters; appreciates hazard support.",
+    "releaseNote": "Custom dataset entry for demo — treat as newly released form in this project."
+  },
+  {
+    "id": "mega-hawlucha",
+    "name": "Mega Hawlucha",
+    "typing": ["Fighting", "Flying"],
+    "abilities": ["Technician (Mega)"],
+    "baseStats": { "hp": 78, "atk": 118, "def": 85, "spa": 64, "spd": 85, "spe": 142 },
+    "signatureMoves": ["Lucha Flurry (custom)", "Acrobatics"],
+    "flavor": "Mega Hawlucha fights with dazzling footwork; its cape-like wings harden mid-flight for whip-fast slams.",
+    "competitiveNotes": "Blistering Speed tier with Technician-boosted multi-hit options; excels as a late-game cleaner. Needs pivot support vs. bulky Steels.",
+    "releaseNote": "Custom dataset entry for demo — treat as newly released form in this project."
+  },
+  {
+    "id": "mega-dragonite",
+    "name": "Mega Dragonite",
+    "typing": ["Dragon", "Flying"],
+    "abilities": ["Multiscale+ (Mega)"],
+    "baseStats": { "hp": 91, "atk": 160, "def": 110, "spa": 120, "spd": 115, "spe": 95 },
+    "signatureMoves": ["Sky Lance (custom)", "Dragon Dance"],
+    "flavor": "Mega Dragonite’s scales interlock into aerodynamic plates. Its Multiscale+ dampens incoming damage at high HP and briefly after switching in.",
+    "competitiveNotes": "Terrifying late-game sweeper with boosted bulk and power. Checks require strong Fairy/Ice presence or status. Values hazard control to preserve Multiscale+.",
+    "releaseNote": "Custom dataset entry for demo — treat as newly released form in this project."
+  }
+]

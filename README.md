@@ -50,8 +50,8 @@ src/
    npm start
 
    # Or choose a specific bot
-   npm run bot:generic  # Simple generation bot
-   npm run bot:kb       # RAG bot with knowledge base
+   npm run bot  # Simple generation bot
+   npm run bot:rag       # RAG bot with knowledge base
    ```
 
 ---
@@ -60,8 +60,8 @@ src/
 
 This project includes two specialized bots:
 
-- **Generic Bot** (`npm start` or `npm run bot:generic`) — Uses only Gemini's general knowledge
-- **Knowledge-Base Bot** (`npm run bot:kb`) — Combines general knowledge with custom Mega Pokémon data
+- **Generic Bot** (`npm start` or `npm run bot`) — Uses only Gemini's general knowledge
+- **Knowledge-Base Bot** (`npm run bot:rag`) — Combines general knowledge with custom Mega Pokémon data
 
 Each bot launches in its own dedicated terminal session. No complex switching needed!
 
@@ -80,7 +80,7 @@ Run in terminal:
 
 ```bash
 npm start
-# or explicitly: npm run bot:generic
+# or explicitly: npm run bot
 ```
 
 Try:
@@ -144,7 +144,7 @@ Bot: **pokedex-kb**
 Run in terminal:
 
 ```bash
-npm run bot:kb
+npm run bot:rag
 ```
 
 Try:

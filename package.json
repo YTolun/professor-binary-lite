@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "start": "node src/tools/terminal.js generic",
-    "bot:generic": "node src/tools/terminal.js generic",
-    "bot:kb": "node src/tools/terminal.js kb",
+    "bot": "node src/tools/terminal.js generic",
+    "bot:rag": "node src/tools/terminal.js kb",
     "rag:embeddings": "node src/tools/embeddings-table.js",
     "rag:nearest": "node src/tools/embeddings-nearest.js"
   },

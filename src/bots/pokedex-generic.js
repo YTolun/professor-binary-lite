@@ -40,7 +40,7 @@ You are Professor Binary, a friendly but wise terminal chatbot that ONLY answers
         temperature: 1,  
         topK: 40,
         topP: 0.9,
-        maxOutputTokens: 500
+        maxOutputTokens: 1000
       }
     });
   },

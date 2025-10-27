@@ -37,7 +37,7 @@ Be concise and accurate. Avoid spoilers unless asked.
         temperature: 1,
         topK: 40,
         topP: 0.9,
-        maxOutputTokens: 300
+        maxOutputTokens: 1000
       }
     });
 
